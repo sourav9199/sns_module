@@ -5,7 +5,7 @@ provider "aws" {
 
 module "policy" {
   source           = "app.terraform.io/abcd92/policy/sns"
-  version          = "1.1.2"
+  version          = "1.1.0"
   account_id       = var.id
   sns_name         = var.name
   sns_display_name = var.dis_name
